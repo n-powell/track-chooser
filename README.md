@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a project intended to help students new to Epicodus in selecting a language track of study. This site contains a short survey with five simple questions to answer. Once answered, the quiz will then output a suggested language track to study, based of the answers given._
+_This is a project intended to help students new to Epicodus in selecting a language track of study. This site contains a short survey with five simple questions to answer. Once answered, the quiz will then output a suggested language track to study, based off the answers given._
 _Live link to github pages-_ https://n-powell.github.io/track-chooser/
 
 ## Setup/Install
