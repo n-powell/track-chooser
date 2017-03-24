@@ -15,24 +15,25 @@ $(function() {
 
     if (size === "large") {
       if (focus === 1) {
-        $(".output").text(cee)
-      }else if (focus > 1) {
-          if (end > 1 ) {
-            $(".output").text(ruby)}
-          }if (focus > 1) {
-              if (end === 1) {
-                $(".output").text(design);}
+        $(".output").text(cee);}
+      else if (focus > 1) {
 
+        if (end === 1 ) {
+          $(".output").text(ruby)}
+        else (end === 2)
+          $(".output").text(android)}
 
-      }
+    else (size === "small")
+      if (focus === 1) {
+        $(".output").text(cee);}
+      else if (focus > 1) {
 
+        if (end === 1 ) {
+          $(".output").text(android)}
+        else (end === 2)
+          $(".output").text(cee)}
+        }
 
-
-
-
-    }else {
-        $("output").text(ruby);
-    }
 
     event.preventDefault();
   });
