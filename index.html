@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <script type="text/javascript" src= "js/scripts.js"></script>
     <script type="text/javascript" src= "js/jquery-3.2.0.js"></script>
+    <script type="text/javascript" src= "js/scripts.js"></script>
+
     <title>Track chooser</title>
   </head>
 
@@ -28,7 +29,8 @@
       <hr>
 
       <div class="quiz">
-        <form id="quiz" class="formgroup">
+        <form id="quiz-form" class="formgroup">
+
           <div class="radio" id="size">
             <h5>Would you prefer to work at a large company or smaller company?</h5>
             <label>
@@ -92,8 +94,13 @@
               Interactive focus
              </label>
           </div>
+          <button class="btn" type="submit" name="button">Show your track</button>
         </form>
-        <button class="btn" type="submit" name="button">Show your track</button>
+
+
+        <div class="output">
+
+        </div>
       </div>
     </div>
   </body>
