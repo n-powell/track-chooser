@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src= "js/jquery-3.2.0.js"></script>
     <script type="text/javascript" src= "js/scripts.js"></script>
 
@@ -20,7 +20,7 @@
     </div>
 
 
-    <div class="container quiz">
+    <div class="container">
       <div class="about">
         <p>
           <strong>Epicodus</strong> offers several different language tracks and you need to choose which suits you best. This site has a quick quiz to help guide you on that choice. Please take a moment to take the quiz.
@@ -28,17 +28,17 @@
       </div>
       <hr>
 
-      <div class="quiz">
+      <div class="container quiz">
         <form id="quiz-form" class="formgroup">
 
           <div class="radio" id="size">
             <h5>Would you prefer to work at a large company or smaller company?</h5>
             <label>
-              <input type="radio" name="size" value="true">
+              <input type="radio" name="size" value="large">
               Large
             </label>
             <label>
-              <input type="radio" name="size" value="false">
+              <input type="radio" name="size" value="small">
               Small
              </label>
           </div>
@@ -94,7 +94,7 @@
               Interactive focus
              </label>
           </div>
-          <button class="btn" type="submit" name="button">Show your track</button>
+          <button class="btn btn-warning" type="submit" name="button">Show your track</button>
         </form>
 
 

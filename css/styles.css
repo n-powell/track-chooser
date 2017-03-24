@@ -1,0 +1,13 @@
+.jumbotron {
+  background-image: url(http://www.voith.com/ca-en/b_1280x300_vt_Monorail_header_story_1.jpg);
+  color: rgba(240, 173, 78, 1);;
+  text-shadow: 10px;
+  text-align: center;
+  opacity: .90;
+}
+
+.quiz {
+  background-color: rgba(246, 246, 246, 1);
+  width: 600px;
+  padding: 10px 10px 10px 30px;
+}
