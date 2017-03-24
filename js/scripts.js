@@ -12,21 +12,35 @@ $(function() {
     var design = parseInt($("input:radio[name=design]:checked").val());
     var content = parseInt($("input:radio[name=content]:checked").val());
 
-
     if (focus === 1) {
-      $(".output").text(cee);}
-    else if (focus === 2) {
-      $(".output").text(android);}
-    else if (focus === 3) {
-      if (end === 1) {
-    $(".output").text(drupal);}
-      else
-    $(".output").text(ruby);}
-
+      $(".output").text(cee);
+      $("#c").show();
+      $("#android").hide();
+      $("#drupal").hide();
+      $("#ruby").hide();}
+      else if (focus === 2) {
+      $(".output").text(android);
+      $("#android").show();
+      $("#ruby").hide();
+      $("#drupal").hide();
+      $("#c").hide();}
+    if (focus === 3 && end === 1) {
+        $(".output").text(drupal);
+        $("#drupal").show();
+        $("#android").hide();
+        $("#ruby").hide();
+        $("#c").hide();}
+    if (focus === 3 && end === 2) {
+        $(".output").text(ruby);
+        $("#ruby").show();
+        $("#android").hide();
+        $("#drupal").hide();
+        $("#c").hide();}
 
 
 
 
     event.preventDefault();
+
   });
 });
